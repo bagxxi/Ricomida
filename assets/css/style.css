@@ -1,0 +1,121 @@
+.carousel-indicators li {
+border-radius:  50%;
+width:  25px;
+height: 25px;
+background-color: grey;
+}
+
+.carousel-indicators li.active {
+    background-color: black;
+}
+
+.carousel-inner {
+margin-bottom: 70px;
+}
+
+.lineaLigera{
+    color: grey;
+    width: 80%;
+    border-color: grey;
+    height: 5px;
+}
+
+header{
+    background-color: rgb(66, 65, 72);
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+ 
+
+section{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card{
+    margin-top: 10px;
+    height: 100%;
+}
+
+.tituloPrincipal{
+/*     width: 425pt;
+    height: 201pt;
+    
+    margin-top: 56.5pt;
+    margin-left: 16pt; */
+
+    font-family:'Cabin', sans-serif;
+    font-size: 40pt;
+    font-weight: 700;
+}
+
+.subTituloPrincipal{
+/*     width: 269pt;
+    height: 27pt;
+    
+    margin-inline: 41.5pt;
+    margin-left: 16pt; */
+
+    font-family:'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 37pt;
+}
+
+.recipeList{
+    list-style: none;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+    font-size:42px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: #fff;
+}
+
+#ricomida {
+    margin-top: 50px;
+}
+
+#logo2 {
+    font-family: 'Lobster', regular;
+    font-size:32px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo2:hover {
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .tituloPrincipal{
+/*         width: 100%;
+        text-align: center; */
+    
+        font-family:'Cabin', sans-serif;
+        font-size: 40pt;
+        font-weight: 400;
+    }
+  }
+
+  @media only screen and (min-width:601) and (max-width: 1280px) {
+    .divImagen{
+        width: 30%;
+    }
+  }
+
+  @media only screen and (min-width:601) and (max-width: 1024px) {
+    .divTitulo{
+        width: 50%;
+    }
+  }
